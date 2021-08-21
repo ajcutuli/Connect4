@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class Main4 {
     public static void main(String[] args) {
 
+        System.out.println("Enter 1 to play against Aric's AI in a GUI.");
+        System.out.println("Enter 2 to play the result of Aric's AI vs an AI that makes random plays.");
+        System.out.println("Enter 3 to play against Aric's AI in the console.");
+        
         Scanner reader = new Scanner (System.in);
         int gameMode = reader.nextInt();
 
@@ -20,7 +24,7 @@ public class Main4 {
                     winCount++;
             }
             System.out.println(((double) winCount)/n);
-        } else {
+        } else if (gameMode==3) {
             ConsoleCF game = new ConsoleCF(new AricAI());
             game.playOut();
             System.out.println(game.getWinner() + " has won.");
