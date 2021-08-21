@@ -1,5 +1,3 @@
-package hw4;
-
 public class CFGame {
     //state[i][j]= 0 means the i,j slot is empty
     //state[i][j]= 1 means the i,j slot has red
