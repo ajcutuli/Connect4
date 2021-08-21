@@ -23,7 +23,7 @@ public class Main4 {
                 if(game.getWinner() == ai1.getName())
                     winCount++;
             }
-            System.out.println("In 10,000 games, Aric's AI won " + 100*((double) winCount)/n) + "% of the time!");
+            System.out.println("In 10,000 games, Aric's AI won " + 100*((double) winCount)/n + "% of the time!");
         } else if (gameMode==3) {
             ConsoleCF game = new ConsoleCF(new AricAI());
             game.playOut();
