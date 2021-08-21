@@ -1,10 +1,4 @@
 import java.util.Scanner;
-import CFPlayer;
-import RandomAI;
-import AricAI;
-import ConsoleCF;
-import GUICF;
-
 
 public class Main4 {
     public static void main(String[] args) {
