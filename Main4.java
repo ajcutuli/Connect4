@@ -1,9 +1,9 @@
 import java.util.Scanner;
-import hw4.CFPlayer;
-import hw4.RandomAI;
-import hw4.AricAI;
-import hw4.ConsoleCF;
-import hw4.GUICF;
+import CFPlayer;
+import RandomAI;
+import AricAI;
+import ConsoleCF;
+import GUICF;
 
 
 public class Main4 {
