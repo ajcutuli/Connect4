@@ -1,5 +1,3 @@
-package hw4;
-
 public class RandomAI implements CFPlayer {
     @Override
     public int nextMove(CFGame g) {
